@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost of Living by Country</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center; /* Centers the text content like the title */
+        }
+        h1 {
+            font-weight: 600;
+            font-size: 32px;
+            color: #333;
+            margin-top: 20px;
+        }
+        #bar_chart {
+            margin: 0 auto; /* Centers the graph container */
+            width: 80%; /* Adjust the width as needed */
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="vega_lite_vis.js"></script>
+    <script src="week9.js"></script>
+    <title>First Vega-Lite graph</title>
+    <h1>Cost of Living Index by Country</h1>
+    <div id="bar_chart"></div>
+</body>
+</html>
